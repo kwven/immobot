@@ -111,7 +111,7 @@ class LanguageManager:
     def extract_number(message: str, lang: Language) -> Optional[int]:
         patterns = {
             "fr": r'(\d+)\s*(chambre?|chambres?|pièces?)',
-            "en": r'(\d+)\s*(rooms?|bedrooms?|bedroom?|room?|pieces?)',
+            "en": r'(\d+)\s*(for|rooms?|bedrooms?|bedroom?|room?|pieces?)',
             "ar": r'(\d+)\s*(غرف|غرفة)',
             "da": r'(\d+)\s*(bit|biyout|byout|chombrat|chambre|غرفة)'  # Ajout des mots en darija
         }
@@ -128,7 +128,7 @@ class LanguageManager:
         
     @staticmethod
     def extract_city(message: str, lang: Language) -> Optional[str]:
-        pattern =r'(?:in|a|at|dans|f|fi|fmdint|fmdinat|à|في|فى|ف)\s+([A-Za-z\s]+?)(?=\s+|$|,|\sin|\sat)'
+        pattern =r'(?:in|a|at|for|dans|f|fi|fmdint|fmdinat|à|في|فى|ف)\s+([A-Za-z\s]+?)(?=\s+|$|,|\sin|\sat)'
         match = re.search(pattern, message.lower(), re.IGNORECASE)
         if match:
             return match.group(1).strip()
