@@ -87,3 +87,41 @@ class PropertyDatabase:
             ]
             self._save_database(sample_data)
             return sample_data
+    def _save_database(self, data: List[Dict]) -> None:
+        with open(self.file_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+    def find_properties(self, criteria: Dict) -> List[Dict]:
+        matches = []
+        for prop in self.properties:
+            if self._matches_criteria(prop, criteria):
+                matches.append(prop)
+        return matches
+
+    def _matches_criteria(self, property: Dict, criteria: Dict) -> bool:
+        try:
+            if criteria.get('budget') and property['price'] > float(criteria['budget']):
+                return False
+            
+            if criteria.get('rooms') and property['rooms'] != int(criteria['rooms']):
+                return False
+            
+            if criteria.get('city') and property['city'].lower() != str(criteria['city']).lower():
+                return False
+            
+            return True
+        except (ValueError, TypeError) as e:
+            print(f"Erreur dans _matches_criteria : {e}")
+            return False
+
+    def add_property(self, property_data: Dict) -> None:
+        self.properties.append(property_data)
+        self._save_database(self.properties)
+
+    def remove_property(self, property_id: str) -> bool:
+        initial_length = len(self.properties)
+        self.properties = [p for p in self.properties if p['id'] != property_id]
+        if len(self.properties) < initial_length:
+            self._save_database(self.properties)
+            return True
+        return False
