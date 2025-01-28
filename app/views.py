@@ -2,8 +2,8 @@ import logging
 import json
 from flask import Blueprint, request, jsonify, current_app
 
-from app.decorators.security import signature_required
-from app.utils.whatsapp_utils import (
+from WhatsApp_config.security.sec_webhook import signature_required
+from WhatsApp_config.whatsapp_resp import (
     process_whatsapp_message,
     is_valid_whatsapp_message,
 )
@@ -17,7 +17,6 @@ def handle_message():
         response: A tuple containing a JSON response and an HTTP status code.
     """
     body = request.get_json()
-    # logging.info(f"request body: {body}")
 
     # Check if it's a WhatsApp status update
     if (
