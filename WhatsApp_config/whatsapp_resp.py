@@ -3,7 +3,7 @@ from flask import current_app, jsonify
 import json
 import requests
 
-from immobot_config.immo import immoBot
+from immobot_config.immo_resp import immoBot
 import re
 
 dialogue_manager = immoBot()
