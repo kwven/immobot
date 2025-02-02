@@ -1,0 +1,255 @@
+[
+    {
+        "id": "prop1",
+        "rooms": 2,
+        "price": 500,
+        "currency": "MAD",
+        "city": "Casablanca",
+        "available": true,
+        "address": "Hay El Oulfa, Rue 12",
+        "amenities": {
+        "fr": ["parking", "wifi", "sécurité", "climatisation"],
+        "en": ["parking", "wifi", "security", "air conditioning"],
+        "ar": ["موقف سيارات", "واي فاي", "أمن", "تكييف"],
+        "da": ["parking", "wifi", "surveillance", "climatiseur"]
+      },
+        "photos": ["https://ibb.co/MBtKQ7d", "https://ibb.co/ThsT4BZ","https://ibb.co/p4yKYs6"],
+        "description": {
+            "fr": "Bel appartement moderne au rez-de-chaussée",
+            "en": "Beautiful modern ground floor apartment",
+            "ar": "شقة جميلة وعصرية في الطابق الأرضي",
+            "da": "dar zwin o3asri f tabq lardi"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop2",
+        "rooms": 2,
+        "price": 550,
+        "currency": "MAD",
+        "city": "Casablanca",
+        "available": true,
+        "address": "Hay El Oulfa, Rue 15",
+        "amenities": {
+        "fr": ["parking", "wifi", "sécurité", "climatisation"],
+        "en": ["parking", "wifi", "security", "air conditioning"],
+        "ar": ["موقف سيارات", "واي فاي", "أمن", "تكييف"],
+        "da": ["parking", "wifi", "surveillance", "climatiseur"]
+      },
+        "photos": ["photo3.jpg", "photo4.jpg"],
+        "description": {
+            "fr": "Appartement lumineux au 3ème étage",
+            "en": "Bright apartment on 3rd floor",
+            "ar": "شقة مشرقة في الطابق الثالث",
+            "da": "dar dawi f tabq talt"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop3",
+        "rooms": 3,
+        "price": 700,
+        "currency": "MAD",
+        "city": "Casablanca",
+        "available": true,
+        "address": "Maarif, Avenue Hassan II",
+        "amenities": {
+        "fr": ["parking", "wifi", "sécurité", "climatisation"],
+        "en": ["parking", "wifi", "security", "air conditioning"],
+        "ar": ["موقف سيارات", "واي فاي", "أمن", "تكييف"],
+        "da": ["parking", "wifi", "surveillance", "climatiseur"]
+      },
+        "photos": ["photo5.jpg", "photo6.jpg"],
+        "description": {
+            "fr": "Grand appartement avec balcon",
+            "en": "Large apartment with balcony",
+            "ar": "شقة كبيرة مع شرفة",
+            "da": "dar kbir fih balcon"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop4",
+        "rooms": 3,
+        "price": 750,
+        "currency": "MAD",
+        "city": "Rabat",
+        "available": true,
+        "address": "Agdal, Avenue Fal Ould Oumeir",
+        "amenities": {
+        "fr": ["parking", "wifi", "sécurité", "climatisation"],
+        "en": ["parking", "wifi", "security", "air conditioning"],
+        "ar": ["موقف سيارات", "واي فاي", "أمن", "تكييف"],
+        "da": ["parking", "wifi", "surveillance", "climatiseur"]
+      },
+        "photos": ["photo7.jpg", "photo8.jpg"],
+        "description": {
+            "fr": "Appartement moderne près du tramway",
+            "en": "Modern apartment near tramway",
+            "ar": "شقة عصرية قرب الترامواي",
+            "da": "dar 3asri 9rib men tramway"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop5",
+        "rooms": 2,
+        "price": 600,
+        "currency": "MAD",
+        "city": "Rabat",
+        "available": true,
+        "address": "Hassan, Avenue Mohammed V",
+        "amenities": {
+        "fr": ["parking", "wifi", "sécurité", "climatisation"],
+        "en": ["parking", "wifi", "security", "air conditioning"],
+        "ar": ["موقف سيارات", "واي فاي", "أمن", "تكييف"],
+        "da": ["parking", "wifi", "surveillance", "climatiseur"]
+      },
+        "photos": ["photo9.jpg", "photo10.jpg"],
+        "description": {
+            "fr": "Petit appartement en centre-ville",
+            "en": "Small apartment in city center",
+            "ar": "شقة صغيرة في وسط المدينة",
+            "da": "dar sghir f center ville"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop6",
+        "rooms": 4,
+        "price": 1200,
+        "currency": "MAD",
+        "city": "Marrakech",
+        "available": true,
+        "address": "Guéliz, Rue Ibn Sina",
+        "amenities": {
+        "fr": ["parking", "wifi", "sécurité", "climatisation"],
+        "en": ["parking", "wifi", "security", "air conditioning"],
+        "ar": ["موقف سيارات", "واي فاي", "أمن", "تكييف"],
+        "da": ["parking", "wifi", "surveillance", "climatiseur"]
+      },
+        "photos": ["photo11.jpg", "photo12.jpg"],
+        "description": {
+            "fr": "Grande villa avec piscine",
+            "en": "Large villa with pool",
+            "ar": "فيلا كبيرة مع مسبح",
+            "da": "villa kbira fiha pissin"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop7",
+        "rooms": 2,
+        "price": 450,
+        "currency": "MAD",
+        "city": "Casablanca",
+        "available": true,
+        "address": "Sidi Maarouf, Rue 45",
+        "amenities": {
+        "fr": ["parking", "wifi", "sécurité", "climatisation"],
+        "en": ["parking", "wifi", "security", "air conditioning"],
+        "ar": ["موقف سيارات", "واي فاي", "أمن", "تكييف"],
+        "da": ["parking", "wifi", "surveillance", "climatiseur"]
+      },
+        "photos": ["https://ibb.co/nbfXvkj", "https://ibb.co/cbzh7xn"],
+        "description": {
+            "fr": "Appartement économique bien situé",
+            "en": "Affordable well-located apartment",
+            "ar": "شقة اقتصادية في موقع جيد",
+            "da": "dar rkhis f blasa mzyana"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop8",
+        "rooms": 3,
+        "price": 800,
+        "currency": "MAD",
+        "city": "Rabat",
+        "available": true,
+        "address": "Hay Riad, Avenue Annakhil",
+        "amenities": {
+        "fr": ["parking", "wifi", "sécurité", "climatisation"],
+        "en": ["parking", "wifi", "security", "air conditioning"],
+        "ar": ["موقف سيارات", "واي فاي", "أمن", "تكييف"],
+        "da": ["parking", "wifi", "surveillance", "climatiseur"]
+      },
+        "photos": ["photo15.jpg", "photo16.jpg"],
+        "description": {
+            "fr": "Appartement luxueux avec vue",
+            "en": "Luxury apartment with view",
+            "ar": "شقة فاخرة مع إطلالة",
+            "da": "dar fakhm b menzar zwin"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop9",
+        "rooms": 4,
+        "price": 1000,
+        "currency": "MAD",
+        "city": "Marrakech",
+        "available": true,
+        "address": "Hivernage, Avenue Mohammed VI",
+        "amenities": {
+          "fr": ["piscine", "jardin", "wifi", "sécurité", "climatisation"],
+          "en": ["pool", "garden", "wifi", "security", "air conditioning"],
+          "ar": ["مسبحة", "حديقة", "واي فاي", "أمن", "تكييف"],
+          "da": [ "jardin", "wifi", "surveillance", "climatiseur"]
+        },
+        "photos": ["photo17.jpg", "photo18.jpg"],
+        "description": {
+            "fr": "Villa moderne avec jardin",
+            "en": "Modern villa with garden",
+            "ar": "فيلا عصرية مع حديقة",
+            "da": "villa 3asriya fiha jardin"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop10",
+        "rooms": 2,
+        "price": 520,
+        "currency": "MAD",
+        "city": "Casablanca",
+        "available": true,
+        "address": "Ain Diab, Rue 100",
+        "amenities": {
+          "fr": ["wifi", "sécurité", "climatisation"],
+          "en": ["wifi", "security", "air conditioning"],
+          "ar": ["واي فاي", "أمن", "تكييف"],
+          "da": ["wifi", "surveillance", "climatiseur"]
+        },
+        "photos": ["photo19.jpg", "photo20.jpg"],
+        "description": {
+            "fr": "Appartement près de la plage",
+            "en": "Apartment near beach",
+            "ar": "شقة قرب الشاطئ",
+            "da": "dar 9rib men plage"
+        },
+        "agent":"0123456"
+    },
+    {
+        "id": "prop11",
+        "rooms": 3,
+        "price": 650,
+        "currency": "MAD",
+        "city": "Rabat",
+        "available": true,
+        "address": "Souissi, Avenue des FAR",
+        "amenities": {
+          "fr": ["piscine", "jardin", "wifi", "sécurité", "climatisation"],
+          "en": ["pool", "garden", "wifi", "security", "air conditioning"],
+          "ar": ["مسبحة", "حديقة", "واي فاي", "أمن", "تكييف"],
+          "da": ["haywan", "jardin", "wifi", "surveillance", "climatiseur"]
+        },
+        "photos": ["photo21.jpg", "photo22.jpg"],
+        "description": {
+            "fr": "Appartement calme avec jardin",
+            "en": "Quiet apartment with garden",
+            "ar": "شقة هادئة مع حديقة",
+            "da": "dar hadi fih jardin"
+        },
+        "agent":"0123456"
+    }
+  ]
