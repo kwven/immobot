@@ -24,12 +24,12 @@ class LanguageManager:
 
         },
         "ask_budget": {
-            "fr": "Quel est votre budget maximum (en dirham ou dollars)?",
-            "en": "What is your maximum budget (in dirhams or dollars)?",
-            "ar": "ما هي ميزانيتك القصوى (بالدرهم أو الدولار)؟",
-            "da": "Ch7al 3ndek f budget dyalek (b derham wla dollar)?"
+            "fr": "Quel est votre budget maximum (en dirham)?",
+            "en": "What is your maximum budget (in dirhams)?",
+            "ar": "ما هي ميزانيتك القصوى (بالدرهم)؟",
+            "da": "Ch7al 3ndek f budget dyalek (b derham)?"
         },
-        "no _ask_budget":{
+        "no_ask_budget":{
             "fr": "Je n'ai pas compris le budget. Veuillez l'indiquer en dirham (exemple: 1500 dh).",
             "en": "I didn't understand the budget. Please indicate it in dirham (example: 1500 dh).",
             "ar": "لم أفهم الميزانية. يرجى تحديدها بالدرهم (مثال: 1500 درهم).",
@@ -41,7 +41,7 @@ class LanguageManager:
             "ar": "في أي مدينة تبحث؟",
             "da": "F ina mdina katqalleb?"
         },
-        "no_ask city":{
+        "no_ask_city":{
             "fr": "Je n'ai pas compris la ville. Veuillez réessayer.",
             "en": "I didn't understand the city. Please try again.",
             "ar": "لم أفهم المدينة. يرجى المحاولة مرة أخرى.",
